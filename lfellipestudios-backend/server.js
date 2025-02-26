@@ -9,7 +9,7 @@ const materiaRoutes = require('./routes/materiaRouter');
 const app = express();
 const PORT = process.env.PORT || 5000;
 
-// Modelo de Usuário
+// Modelo do Usuário
 const userSchema = new mongoose.Schema({
   username: { type: String, required: true, unique: true },
   password: { type: String, required: true },

@@ -28,7 +28,7 @@ const User = mongoose.model('User', userSchema);
 
 // Configurações iniciais
 const corsOptions = {
-  origin: 'http://localhost:5173',
+  origin: 'https://lfellipestudios.netlify.app/',
   methods: ['GET', 'POST', 'PUT'],
   allowedHeaders: ['Content-Type', 'Authorization']
 };
